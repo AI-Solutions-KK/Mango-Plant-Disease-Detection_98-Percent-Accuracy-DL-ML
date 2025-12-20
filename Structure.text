@@ -1,0 +1,10 @@
+
+# COPY BELOW CMD IN COMMAND PROMPT AND ENTER - TO CREATE FOLDER STRUCTURE
+
+mkdir app data embeddings_cache models reports && ^
+type nul > app\__init__.py && ^
+type nul > app\config.py && ^
+type nul > app\inference.py && ^
+type nul > streamlit_app.py && ^
+type nul > requirements.txt && ^
+type nul > README.md
