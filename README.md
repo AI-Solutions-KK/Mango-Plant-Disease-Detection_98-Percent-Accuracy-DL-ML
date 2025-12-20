@@ -4,6 +4,7 @@ An end-to-end AI-based Mango Leaf Disease Detection system that identifies plant
 
 ---
 
+### LIVE APP - https://mango-plant-disease-detection-epmxq6m3v4fkx6s8schsfg.streamlit.app/
 ## 🚀 Features
 
 - 🌿 Detects 8 Mango plant conditions  
