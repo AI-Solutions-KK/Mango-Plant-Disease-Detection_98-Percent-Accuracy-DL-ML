@@ -2,7 +2,7 @@
 setlocal EnableDelayedExpansion
 
 REM ===== CONFIG =====
-set prefix=karan
+set prefix=Anthracnose
 
 REM ===== STEP 1: Rename everything to unique internal names =====
 set i=1
