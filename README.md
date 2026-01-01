@@ -8,7 +8,10 @@ An end-to-end AI-based Mango Leaf Disease Detection system that identifies plant
 https://mango-plant-disease-detection-epmxq6m3v4fkx6s8schsfg.streamlit.app/
 
 Project Snap Shot
+![snap](snap_2.png)
+
 ![snap](snap.jpg)
+
 
 ---
 
