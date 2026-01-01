@@ -1,6 +1,6 @@
 # ================================
 # FILE: streamlit_app.py
-# FINAL VERSION – LOCKED
+# FINAL VERSION — LOCKED
 # Project: Mango Plant Disease Detection
 # ================================
 
@@ -17,6 +17,59 @@ st.set_page_config(
     page_icon="🥭",
     layout="wide"
 )
+
+# ---------------- APPLY WHITE THEME ----------------
+st.markdown("""
+    <style>
+    /* Force white background */
+    .stApp {
+        background-color: white;
+    }
+    
+    /* Sidebar light blue-white background with shadow */
+    [data-testid="stSidebar"] {
+        background-color: #f0f2f6;
+        box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.05);
+    }
+    
+    /* All text to dark */
+    .stApp, .stMarkdown, p, span, div {
+        color: #262730;
+    }
+    
+    /* Headers dark */
+    h1, h2, h3, h4, h5, h6 {
+        color: #262730 !important;
+    }
+    
+    /* Button styling - light blue background with black text and border */
+    .stButton button {
+        background-color: #e3f2fd !important;
+        color: #1a1a1a !important;
+        border: 1.5px solid #90caf9 !important;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1) !important;
+        font-weight: 500 !important;
+        padding: 0.5rem 1rem !important;
+    }
+    
+    .stButton button:hover {
+        background-color: #bbdefb !important;
+        border-color: #64b5f6 !important;
+    }
+    
+    /* Selectbox (dropdown) styling */
+    .stSelectbox > div > div {
+        background-color: #e3f2fd !important;
+        color: #1a1a1a !important;
+        border: 1.5px solid #90caf9 !important;
+    }
+    
+    /* Top header ribbon - very light */
+    header[data-testid="stHeader"] {
+        background-color: #fafafa !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
 # ---------------- LOAD MODELS ----------------
 @st.cache_resource
